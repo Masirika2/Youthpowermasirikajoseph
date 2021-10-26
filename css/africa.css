@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to top,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(../IMAGES/lion.jpg);
+}
+.container{
+    width: 80%;
+    margin: 80px auto;
+
+}
+.container h1{
+    padding: 60px 0;
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+
+}
+.future-img{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+
+
+}
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: 20px;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+}
+.small-img{
+    position: relative;
+
+}
+.small-img img{
+    width: 150px;
+}
+.small-img-row p{
+    margin-left: 20px;
+    color: #707070;
+     line-height: 22px;
+    font-size: 15px;
+}
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.small-img .play-btn{
+    width: 35px;
+}
+.video-player{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.video:focus{
+    outline: none;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+.close-btn audio{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20;
+    cursor: pointer;
+}
+.container a{
+    text-decoration: none;
+    text-align: left;
+    color: brown;
+    width: 15px;
+    font-size: 20px;
+}
+
+
+.bo{
+    margin: 10%;
+    border: 3px;
+
+    
+    
+}
+audio{
+    width: 550px;
+    margin: auto;
+    top: -12px;
+    float: left;
+}
+h1{
+    margin: 1%;
+    text-shadow: 3px 3px red;
+
+}
+h2{
+    width: 6px;
+    color: royalblue;
+    text-shadow: seagreen;
+    margin-left: 10px
+}
