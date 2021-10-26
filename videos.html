@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos gallery</title>
+    <link rel="stylesheet" href="./css/africa.css">
+</head>
+<body>
+    <div class="container">
+            <h1>MY VIDEOS AND AUDIO GALLERY</h1>
+            <a href="index.html">Click here to go back to the home page</a>
+     <div class="row">
+         <div class="col">
+             <div class="future-img">
+                 <img src="./IMAGES/joseph.jpg" width="100%">
+                 <img src="./IMAGES/play.jpg" class="play-btn" onclick="playVideo('/video/presentation.mp4')">
+             </div>
+         </div>
+                <div class="col">
+                   <div class="small-img-row">
+                              <div class="small-img">
+                                  <img src="./IMAGES/7.JPG">
+                                  <img src="./IMAGES/play.jpg" class="play-btn" onclick="playVideo('/video/presentation.mp4')" >
+                                 </div>
+                                 <p style="color: red;"> Fungulo Masirika Joseph presentation<br> about his future expection in IT career second video  </p>
+    
+
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="./IMAGES/images.JPG">
+                            <img src="./IMAGES/play.jpg"class="play-btn"onclick="playVideo('/video/presentation.mp4')">
+                           </div>
+                           <p ></p> Fungulo Masirika Joseph presentation<br> how to change behavior </p>
+
+
+              </div>
+              <div class="small-img-row">
+                <div class="small-img">
+                    <img src="./IMAGES/images.JPG">
+                    <img src="./IMAGES/play.jpg"class="play-btn"onclick="playVideo('/video/presentation.mp4')">
+                   </div>
+                   <p>Fungulo Masirika Joseph presentationt<br> about mind reprograming </p>
+
+
+      </div>
+                              
+                </div>
+
+         </div>
+
+     </div>
+
+
+     <div class="video-player" id="videoPlayer">
+
+        <video width="100%" controls  id="myVideo">
+          
+            <source  src="./video/presentation.mp4" type="video/mp4"> 
+
+        </video>
+        <div class="audioplay">
+            <source src="./audio/Fungulo masirika joseph speech.m4a">
+        </div>
+        
+        <img src="./IMAGES/close.jpeg" class="close-btn" 
+        onclick="stopVideo()">
+
+        
+     </div>
+     
+
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+        function stopVideo (){
+
+            videoPlayer.style.display = "none";
+        }
+
+        function playVideo(file){
+
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+
+        }
+
+    </script>
+          
+           
+           
+        
+        <div class="bo">
+            <div class="title">
+                <h2> My audio</h2>
+            </div>
+            
+    <audio src="./audio/Fungulo masirika joseph speech.m4a" controls ></audio>
+</div>
+    
+</body>
+</html>
