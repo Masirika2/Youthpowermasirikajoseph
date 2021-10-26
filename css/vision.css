@@ -1,0 +1,65 @@
+@import url(https://fonts.gooleapis.com/ccs2?family=Poppins:wgth@100;200;300);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../IMAGES/bac.jpg");
+    background-size: cover;
+    font-family: 'Poppins',sans-serif;
+    
+}
+.content{
+    margin: 10%;
+}
+.content h1{
+    font-family: 'Allura',cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap:  wrap;
+}
+
+.team .member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color:black;
+    position: relative;
+
+}
+.team .member h2{
+    color: lightseagreen;
+    font-size: 26px;
+    margin-top: 50px;
+
+}
+.team .member p.role{
+    color: rgb(189, 75, 75);
+    font-size: 12px;
+    text-transform: uppercase;
+    margin:12px 0;
+}
+a{
+    color: red;
+    text-decoration: none ;
+    width: 2;
+    text-align: center;
+    top: 0%; 
+    right: 20%;
+    left: 600px;
+}
+
+
