@@ -12,6 +12,7 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
+    min-width: 408px;
 
 }
 .navbar{
