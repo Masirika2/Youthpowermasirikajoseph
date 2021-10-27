@@ -253,14 +253,15 @@ ul li a:hover{
     color: red;
    
 }
-@-o-viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
 
-}
-@-ms-viewport{
-    width: extend-to-zoom;
-    zoom: 1.0;
-}
 
 
