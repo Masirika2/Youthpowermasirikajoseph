@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+    <style>
+        input{
+            margin: 20px;
+            width: 180px;
+
+        }
+        button{
+            background-color: black;
+            color: yellowgreen
+        }
+        .form1{
+            background-color: lightblue;
+            width: 40%;
+            padding: 30px;
+            margin: auto;
+            left: 20px;
+            right: 60px;
+            size: 0px;
+        }
+        .content-table{
+            border-collapse: collapse;
+            margin: 25px;
+            font-size: 0.9em;
+            min-width: 400px;
+            margin-left: 380px;
+        }
+        .content-table thead tr{
+            background-color: green;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+            width: 220px;
+
+        }
+        tr{
+            color: red;
+            width: max-content;
+            height: 30px;
+            box-sizing: 12px;
+        }
+        body{
+            background-color: lavender;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    
+  <div class="form1">
+    <h1 style="ali">Register your details</h1>
+    <form action="">
+      
+      <input type="text" id="fname" placeholder="firstname">
+      <br>
+     
+      <input type="text" id="sname" placeholder="secondname">
+      <br>
+      
+      <input type="date" placeholder="DOB">
+      
+      <br>
+     
+      <input type="email" placeholder="email address">
+      <br>
+      
+      <input type="file" placeholder="choose file">
+      <button style="margin-top:10px; width: 174px;">
+        submit</button>
+
+
+    </form>
+</div>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>JOSEPH</td>
+            <td>CEO</td>
+            <td>20000</td>
+            <td>UGANDA</td>
+        </tr>
+        <tr>
+            <td>SAM</td>
+            <td>ED</td>
+            <td>10000</td>
+            <td>FRANCE</td>
+        </tr>
+        <tr>
+            <td>DURAN</td>
+            <td>TECH CHIEF</td>
+            <td>5000</td>
+            <td>CONGO</td>
+        </tr>
+        <tr>
+            <td>CELIA</td>
+            <td>SEC CHIEF</td>
+            <td>2000</td>
+            <td>RWANDA</td>
+        </tr>
+    </tbody>
+
+</table>
+</body>
+</html>
